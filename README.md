@@ -21,19 +21,17 @@ The most part of the movies have the same characteristics: simple reviews and si
 
 Some outliers have some speficities like a special mention to an actor, or a more critical analysis of technical and thematic content.
 
-*All the documents*
+*src : All the documents*
 
-- *data_clean.ipynb* : Getting information and data cleaning.
+- *data_cleaning.py* : Getting information and data cleaning.
 
 I found information in GuideBox's API, IMDb's API and scrapying with Selenium IMDb's website.
 
-- *main.py* : working with Natural Processing Language.
+- *main.py* : working with Natural Processing Language. I tried TfidfVectorizer (SKlearn), UMAP and HDBSCAN.
 
-I tried TfidfVectorizer (SKlearn), UMAP and HDBSCAN.
+- *functions.py* : all the functions used for this project.
 
-- *clustering_kmeans.ipynb* 
 
-I tried TfidVectorizer (SKlearn) and clustering with Kmeans.
 
 
 
