@@ -41,7 +41,7 @@ All the dataframes in csv.
 
 *top_word_clusters*
 
-WordClouds of the three clusters.
+WordCloud for each Cluster.
 
 
 
