@@ -65,6 +65,9 @@ def only_first_paragraph(lista):
 
 # Tokenizer (Natural Language Processing)
 
+nlp = spacy.load('en')
+parser = English()
+
 def spacy_tokenizer(sentence):
     tokens = parser(sentence)
 
@@ -79,8 +82,28 @@ def spacy_tokenizer(sentence):
 
 # Getting titles from clusters
 
+with warnings.catch_warnings():
+    warnings.simplefilter('ignore')
+
+    umap = UMAP(random_state=42)
+    embedding = umap.fit_transform(dist)
+
+hdbscan = HDBSCAN(min_cluster_size=8)
+
+clustering = hdbscan.fit_predict(embedding)
+
 def get_titles_from_cluster(cluster):
     return pd.Series(df["Title"])[clustering==cluster]
+
+tfidf_vectorizer = TfidfVectorizer(min_df=0.10, tokenizer=spacy_tokenizer, ngram_range=(1,2))
+
+tfidf_matrix = tfidf_vectorizer.fit_transform(positive_reviews["First Review"])
+
+terms = tfidf_vectorizer.get_feature_names()
+
+tfidf_df = pd.DataFrame(tfidf_matrix.toarray(), columns=terms)
+
+
 
 def get_df_from_cluster(cluster):
     return tfidf_df[clustering==cluster]

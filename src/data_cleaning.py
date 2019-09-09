@@ -89,7 +89,7 @@ df.to_csv('titles_and_imdb-id.csv')
 prueba = getreviews("2575988")
 
 print("Let's see if we can find a review from IMDb website...")
-print("This is a review about Silicon Valley (2014)")
+print("This is a review about Silicon Valley (2014): ")
 print(prueba)
 
 list_all_reviews = df['IMDb_id'].map(getreviews)
