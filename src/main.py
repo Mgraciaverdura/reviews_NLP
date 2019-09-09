@@ -1,4 +1,4 @@
-from src.functions import spacy_tokenizer, get_titles_from_cluster, get_df_from_cluster
+from functions import spacy_tokenizer, get_titles_from_cluster, get_df_from_cluster
 import pandas as pd
 import nltk
 nltk.download('vader_lexicon')
