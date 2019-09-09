@@ -21,7 +21,7 @@ The most part of the movies have the same characteristics: simple reviews and si
 
 Some outliers have some speficities like a special mention to an actor, or a more critical analysis of technical and thematic content.
 
-*src : All the documents*
+*src*
 
 - *data_cleaning.py* : Getting information and data cleaning.
 
@@ -30,6 +30,18 @@ I found information in GuideBox's API, IMDb's API and scrapying with Selenium IM
 - *main.py* : working with Natural Processing Language. I tried TfidfVectorizer (SKlearn), UMAP and HDBSCAN.
 
 - *functions.py* : all the functions used for this project.
+
+*notebooks*
+
+Everything here was written in the Jupyter Notebook environment, previous to build the code at src.s
+
+*documents*
+
+All the dataframes in csv.
+
+*top_word_clusters*
+
+WordClouds of the three clusters.
 
 
 
