@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "final-project-ironhack-248815",
+  "private_key_id": "523bb6920eff85a28475ffee2022eccc6bdc2b40",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCjl1z9STWDn96z\nArqfdyNBiwaE+8fbaDG1CkcBPgPB9eqqOS7tbB0K/nadRNk4dsgNe3vkfk70Rnz3\nzz4KDjrmHwm3F34SJkaCE/heP+nnR2BPQWps3hVkiH5OedRKkHSL+Mpi4Pb/+/zl\ns9fMBcn6RLnA3NdlACRUSEDe2Q2Obxp6ciajxrVyS8kZYpYUvBfFvFlNBGqjGGrl\n/k9ZxwLP02F2M4vabpUPCn5/+6+DlCxzmgScQl6iH53bKIpAcJ//r8j48kITUS+T\n3IFw83wqMSapEi6hPMuMzUQwAoEzoPN4BdjHhxJBSEjs8TUiEnNgkfVO70pWSS9x\nnb0VIkNRAgMBAAECggEAEOBnpnWsAKU4i00nxZW73GIkTQnQh3ELV7r0skschiEB\nkYgOsE2r/VtdD0JwCmQupT1s/ZiOOqMe9024/76SEvV2wh25UtQCCB9ZSxfa4JI7\nfFGqUgrjOBjgtuXYocyfSWVkM6kzshrj7yqLg6/BM4FtjFj8G55VISDHGHZZ8KyZ\nHKR1xkiByGDIt1b4xE+HfbjE1Z6M4tVnaxddhpXkgCbS9jBBF2O5sdaQqFrGw9/V\nTfbFNCB1UKZ0FLIIUpCv6cFnOt29yOkGsOxOL0vet1dARZZ5tv1zUvNC3YeNG5I9\nIIVvX4sD5qiHd1ElGxc3xTXwUQ3yqQWoxeH/e4EgBQKBgQDkGCXeq12ivPST8hQh\neA+9ok6OOThcDQkaTznOcWDMc9amTFLfVIdjGZksvxVxGewfkBDxif6K+070+9o4\nso+k3jrOtcsCP9oXMk9xedeVQu6nmo6SUZbmhINoLm3QgLKzWcL7r/UNW1VOEmC6\nlJPZ22tU8LHa5m30oJz1BVVjZwKBgQC3mv82LxNiQ/QmuPtgm+ed+0hwJpAsrHbm\n2nBr7tICLkXXtnWVU2YwRXpP8GcNqCXKaCvFTViPQ8Vi5MEL5jc3slnxbgRGp6An\nt85MX7AaICvBLHlp5W7AoTMviuYJS+1HBMHdPo5KqBAODodgE6KdI4xFm5udSqle\nzgU8Ut9ohwKBgDMRWQE2mttBtPyeuXUY3WVWvoHHO+AYJw6V6FpZNhPwZ4GKGw/X\nbAx7Ablr+s/8vsn+RlzdyXiydWYSMTR6fgCqpL39I7uYMir5X6IHZoYLm0U5LGyE\nCeYIiyc7JekFt3zCPw58wb/A0COPp8p+U2/2WVyGGzvoVXvsrdeJ3ylHAoGAPaao\nB5OrGJXkx5PZpMj07xFPc4kfZEDM9BtpIHTiw6SyAwrbVLbaW18ZAPqiP+20MtDj\n0a51DDYfc2OIhuxYojUbCnx8pxTmLDAF75M52KvwxT6fzjUiCUCXpWEoePqrw+sP\nBbFZqivgqDessVAmjElBcqYbjKdjU9gt3eGd7sUCgYEAoUfe3oi0k9adibFUcwlg\nkmJ+OiuAOOxdBMwA206WUsm2wy6T82XLdYeJaVEjVW39laXjXaKgiLpoKthnahYA\n2AWXjI+Tv7FFS69Cszt10O+eP15SxjT4/VFf73vfoMDXk4qJwmjs1fBU+1UsOM0v\nYgrT69mo/CC/VF87zZ8Hg5M=\n-----END PRIVATE KEY-----\n",
+  "client_email": "final-project-ironhack@final-project-ironhack-248815.iam.gserviceaccount.com",
+  "client_id": "110784335232552133396",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/final-project-ironhack%40final-project-ironhack-248815.iam.gserviceaccount.com"
+}
